@@ -18,14 +18,14 @@ uint public fileCount = 0;
 
   // Event
   event FileUploaded(
-    uint fileId;
-    string fileHash;
-    uint fileSize;
-    string fileType;
-    string fileName;
-    string fileDescription;
-    uint uploadTime;
-    address payable uploader;
+    uint fileId,
+    string fileHash,
+    uint fileSize,
+    string fileType,
+    string fileName,
+    string fileDescription,
+    uint uploadTime,
+    address payable uploader
   )
 
   constructor() public {
