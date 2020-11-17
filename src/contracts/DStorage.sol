@@ -6,7 +6,7 @@ uint public fileCount = 0;
   mapping(uint => File) public files;
 
   struct File {
-    uint fieldId;
+    uint fileId;
     string fileHash;
     uint fileSize;
     string fileType;
@@ -18,7 +18,7 @@ uint public fileCount = 0;
 
   // Event
   event FileUploaded(
-     uint fieldId;
+    uint fileId;
     string fileHash;
     uint fileSize;
     string fileType;
