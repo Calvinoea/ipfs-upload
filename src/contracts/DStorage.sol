@@ -26,11 +26,9 @@ uint public fileCount = 0;
     string fileDescription,
     uint uploadTime,
     address payable uploader
-  )
+  );
 
   constructor() public {
-
-
   }
 
     function uploadFile(string memory _fileHash, uint _fileSize, string memory _fileType, string memory _fileName, string memory _fileDescription ) public {
@@ -43,30 +41,11 @@ uint public fileCount = 0;
 
 
         fileCount ++;
-        files[fileCount] = File(fileCount, _fileHash, _fileSize, _fileType, _fileName, _fileDescription, now, 0x0, msg.sender);
+       files[fileCount] = File(fileCount, _fileHash, _fileSize, _fileType, _fileName, _fileDescription, now, msg.sender);
 
   // Trigger event
-  emit FileUploaded();
+  emit FileUploaded(fileCount, _fileHash, _fileSize, _fileType, _fileName, _fileDescription, now, msg.sender);
   }
-
-  // Upload File function
-
-    // Make sure the file hash exists
-
-    // Make sure file type exists
-
-    // Make sure file description exists
-
-    // Make sure file fileName exists
-
-    // Make sure uploader address exists
-
-    // Make sure file size is more than 0
-
-
-    // Increment file id
-
-    // Add File to the contract
 
 
 
