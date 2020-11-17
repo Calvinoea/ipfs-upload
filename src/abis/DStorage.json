@@ -1,0 +1,185 @@
+{
+  "contractName": "DStorage",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/student/Documents/IDE/datadao/datadaohackathon/DataDaoHackathon/dstorage/src/contracts/DStorage.sol\":\"DStorage\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/student/Documents/IDE/datadao/datadaohackathon/DataDaoHackathon/dstorage/src/contracts/DStorage.sol\":{\"keccak256\":\"0xfe5bf8f6d51ecb93b20474a256d11f2ed609368f2caab0d385ce11c40fd50f92\",\"urls\":[\"bzz-raw://b55856edd0ceb55a7fbdfb1ff52e84c06e2274c755886b2065721d170779a72f\",\"dweb:/ipfs/QmP4QXeufoQc9jUBV6FuczWM8nXBQErWtXxrnXAGsi3zBm\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820f1155ea7ad792305440ac991a1de27de689a6de83c0f8ce6e94381b26d15011f64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820f1155ea7ad792305440ac991a1de27de689a6de83c0f8ce6e94381b26d15011f64736f6c63430005100032",
+  "sourceMap": "25:490:0:-;;;134:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;134:26:0;25:490;;;;;;",
+  "deployedSourceMap": "25:490:0:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\ncontract DStorage {\n  // Name\n  // Number of files\n  // Mapping fileId=>Struct \n\n  // Struct\n\n\n  // Event\n\n  constructor() public {\n  }\n\n  // Upload File function\n\n    // Make sure the file hash exists\n\n    // Make sure file type exists\n\n    // Make sure file description exists\n\n    // Make sure file fileName exists\n\n    // Make sure uploader address exists\n\n    // Make sure file size is more than 0\n\n\n    // Increment file id\n\n    // Add File to the contract\n\n    // Trigger an event\n\n}",
+  "sourcePath": "/Users/student/Documents/IDE/datadao/datadaohackathon/DataDaoHackathon/dstorage/src/contracts/DStorage.sol",
+  "ast": {
+    "absolutePath": "/Users/student/Documents/IDE/datadao/datadaohackathon/DataDaoHackathon/dstorage/src/contracts/DStorage.sol",
+    "exportedSymbols": {
+      "DStorage": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "DStorage",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "155:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "145:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:0"
+            },
+            "scope": 6,
+            "src": "134:26:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "25:490:0"
+      }
+    ],
+    "src": "0:515:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/student/Documents/IDE/datadao/datadaohackathon/DataDaoHackathon/dstorage/src/contracts/DStorage.sol",
+    "exportedSymbols": {
+      "DStorage": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "DStorage",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "155:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "145:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:0"
+            },
+            "scope": 6,
+            "src": "134:26:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "25:490:0"
+      }
+    ],
+    "src": "0:515:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xdC51D4a20cFB7dCC77dC08151e5d7Df8dd58de99",
+      "transactionHash": "0xacce05ea6ceb2d748edf61f7cd2e1918a27d8769ad0941984a4ca8d4b29e9535"
+    }
+  },
+  "schemaVersion": "3.3.1",
+  "updatedAt": "2020-11-17T15:14:05.560Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
